@@ -8,11 +8,12 @@ import Landing1 from '../assets/LandingPage1.png'
 import Landing2 from '../assets/LandingPage2.png'
 import Menify from '../assets/Menify.png'
 import WeatherApp from '../assets/WeatherApp.png'
+import veloratechProject from '../assets/ECommerce.png'
 
 export default function Projects() {
     return (
         <section id='projects'>
-            <div data-aos="fade-up" data-aos-mirror="true" data-aos-duration="1000"  className='container md:px-38 min-h-screen ' id='projects'>
+            <div data-aos="fade-up" data-aos-mirror="true" data-aos-duration="1000" className='container md:px-38 min-h-screen ' id='projects'>
                 <div className='flex flex-col gap-4  mb-10'>
                     <h2 className="font-bold text-4xl text-center max-sm:text-3xl bg-gradient-to-r from-hoverElment to-thBackGround bg-clip-text text-transparent">All My Projects</h2>
                     <p className="text-gray-400 max-w-xl text-center max-sm:px-1 mx-auto ">
@@ -36,6 +37,7 @@ export default function Projects() {
                             <Card >
                                 <CardBody className='bg-bgProjects' >
                                     <div className='w-full flex flex-wrap'>
+                                        <CartOfProject src={veloratechProject} altSrc={"veloratechImage"} title={"E-Commerce WebSite(Velora Tech)"} demo={"veloratech.vercel.app/"} href={"https://veloratech.vercel.app/"} />
                                         <CartOfProject src={socialAppProject} altSrc={"SocialMediaAppImage"} title={"Social Media App(GlowUp)"} demo={"glowup-lemon.vercel.app"} href={"https://glowup-lemon.vercel.app/"} />
                                         <CartOfProject src={NoteApp} altSrc={"NoteAppImage"} title={"Note App"} demo={"take-note-ebon.vercel.app"} href={"https://take-note-ebon.vercel.app/"} />
                                         <CartOfProject src={Menify} altSrc={"MealifyImage"} title={"Mealify"} demo={"mealify-restaurant-ruddy.vercel.app"} href={"https://mealify-restaurant-ruddy.vercel.app/"} />
@@ -52,7 +54,7 @@ export default function Projects() {
                             <Card>
                                 <CardBody className='bg-bgProjects'>
                                     <div className=' w-full flex flex-wrap'>
-                                        <h1 className='text-white'>Coming Soon</h1>
+                                        <CartOfProject src={veloratechProject} altSrc={"veloratechImage"} title={"E-Commerce WebSite(Velora Tech)"} demo={"veloratech.vercel.app/"} href={"https://veloratech.vercel.app/"} />
                                     </div>
                                 </CardBody>
                             </Card>

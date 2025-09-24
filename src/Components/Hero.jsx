@@ -18,7 +18,9 @@ export default function Hero() {
                         </p>
                         {/* Buttons */}
                         <div data-aos="fade-up" data-aos-duration="1000" className='flex gap-2'>
-                            <button className=' cursor-pointer text-hoverElment hover:bg-hoverButtom hover:text-white transition-all ease-in-out border-1 border-hoverElment px-5 py-3  rounded-4xl w-fit'>Download CV<i className="fa-solid fa-download" /></button>
+                            <a href="/CV-Mahmoud-Mohamed-Farouk.pdf" download="CV-Mahmoud-Mohamed-Farouk.pdf">
+                                <button className=' cursor-pointer text-hoverElment hover:bg-hoverButtom hover:text-white transition-all ease-in-out border-1 border-hoverElment px-5 py-3  rounded-4xl w-fit'>Download CV<i className="fa-solid fa-download" /></button>
+                            </a>
                             <a target='_blank' aria-label="LinkedIn Profile" href="https://www.linkedin.com/in/mahmoud-mohamed-a15559353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className='text-hoverElment border-1 border-hoverElment w-12 h-12  rounded-full hover:bg-hoverButtom hover:text-white  transition-all ease-in-out flex justify-center items-center'><i className="fa-brands fa-linkedin-in  " /></a>
                             <a target='_blank' aria-label="GitHub Profile" href="https://github.com/its-mahm0ud" className='text-hoverElment border-1 border-hoverElment w-12 h-12  rounded-full hover:bg-hoverButtom hover:text-white  transition-all ease-in-out flex justify-center items-center'><i className="fa-brands fa-github " /></a>
                             <a target='_blank' aria-label="Email" href="mailto:mahmoud.mohamed.farouk.dev@gmail.com" className='text-hoverElment border-1 border-hoverElment w-12 h-12  rounded-full hover:bg-hoverButtom hover:text-white  transition-all ease-in-out flex justify-center items-center'><i className="fa-solid fa-envelope" /></a>
@@ -35,7 +37,7 @@ export default function Hero() {
                                 alt="ImageMahmoud"
                                 className="md:rotate-6 hover:rotate-0 transition-transform duration-500 ease-in-out md:w-3/4   border-4 border-blue-900 rounded-full  object-contain mx-auto"
                             />
-                            
+
                         </div>
                     </div>
                 </div>
