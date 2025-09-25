@@ -39,7 +39,12 @@ export default function NavbarComponent() {
 
             <NavbarBrand >
                 <img className="w-8 h-8 rounded-full " src={photo} alt="" />
-                <h1 className="font-bold text-2xl  text-white">Mahmoud Mohamed</h1>
+                <h1 className="font-bold text-2xl ms-1 text-transparent bg-clip-text
+               bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500
+               animate-gradient">
+                    &lt;Mahmoud/&gt;
+                </h1>
+
             </NavbarBrand>
 
 
@@ -49,13 +54,13 @@ export default function NavbarComponent() {
                     <Link className={`text-white hover:text-blue-300 relative before:absolute before:h-0.5 before:w-0 hover:before:w-full before:transition-all before:ease-in-out before:bg-hoverElment before:bottom-0 ${activeSection === "hero" ? "before:w-full text-blue-300 " : ""}`} href="#hero">Me</Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link className={`text-white hover:text-blue-300 relative before:absolute before:h-0.5 before:w-0 hover:before:w-full before:transition-all before:ease-in-out before:bg-hoverElment before:bottom-0 ${activeSection ==="projects"? "before:w-full text-blue-300 " : ""}`} href="#projects">Progects</Link>
+                    <Link className={`text-white hover:text-blue-300 relative before:absolute before:h-0.5 before:w-0 hover:before:w-full before:transition-all before:ease-in-out before:bg-hoverElment before:bottom-0 ${activeSection === "projects" ? "before:w-full text-blue-300 " : ""}`} href="#projects">Progects</Link>
                 </NavbarItem>
                 <NavbarItem >
-                    <Link className={`text-white hover:text-blue-300 relative before:absolute before:h-0.5 before:w-0 hover:before:w-full before:transition-all before:ease-in-out before:bg-hoverElment before:bottom-0 ${activeSection ==="skills"? "before:w-full text-blue-300 " : ""}`} href="#skills">Skills</Link>
+                    <Link className={`text-white hover:text-blue-300 relative before:absolute before:h-0.5 before:w-0 hover:before:w-full before:transition-all before:ease-in-out before:bg-hoverElment before:bottom-0 ${activeSection === "skills" ? "before:w-full text-blue-300 " : ""}`} href="#skills">Skills</Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link className={`text-white hover:text-blue-300 relative before:absolute before:h-0.5 before:w-0 hover:before:w-full before:transition-all before:ease-in-out before:bg-hoverElment before:bottom-0 ${activeSection ==="contact"? "before:w-full text-blue-300 " : ""}`} href="#contact">Contact</Link>
+                    <Link className={`text-white hover:text-blue-300 relative before:absolute before:h-0.5 before:w-0 hover:before:w-full before:transition-all before:ease-in-out before:bg-hoverElment before:bottom-0 ${activeSection === "contact" ? "before:w-full text-blue-300 " : ""}`} href="#contact">Contact</Link>
                 </NavbarItem>
             </NavbarContent>
             <NavbarContent className="sm:hidden text-white" justify="end">
@@ -65,16 +70,16 @@ export default function NavbarComponent() {
 
             <NavbarMenu className="bg-linear-to-b from-fBackGround to-sBackGround" justify="center">
                 <NavbarMenuItem className="mt-10">
-                    <Link className={`text-white hover:text-blue-300 relative before:absolute before:h-0.5 before:w-0 hover:before:w-full before:transition-all before:ease-in-out before:bg-hoverElment before:bottom-0 ${activeSection ==="hero"? "before:w-full text-blue-300 " : ""}`} href="#hero">Me</Link>
+                    <Link className={`text-white hover:text-blue-300 relative before:absolute before:h-0.5 before:w-0 hover:before:w-full before:transition-all before:ease-in-out before:bg-hoverElment before:bottom-0 ${activeSection === "hero" ? "before:w-full text-blue-300 " : ""}`} href="#hero">Me</Link>
                 </NavbarMenuItem>
                 <NavbarMenuItem className="mt-3">
-                    <Link className={`text-white hover:text-blue-300 relative before:absolute before:h-0.5 before:w-0 hover:before:w-full before:transition-all before:ease-in-out before:bg-hoverElment before:bottom-0 ${activeSection ==="projects"? "before:w-full text-blue-300 " : ""}`} href="#projects">Projects</Link>
+                    <Link className={`text-white hover:text-blue-300 relative before:absolute before:h-0.5 before:w-0 hover:before:w-full before:transition-all before:ease-in-out before:bg-hoverElment before:bottom-0 ${activeSection === "projects" ? "before:w-full text-blue-300 " : ""}`} href="#projects">Projects</Link>
                 </NavbarMenuItem>
                 <NavbarMenuItem className="mt-3">
-                    <Link className={`text-white hover:text-blue-300 relative before:absolute before:h-0.5 before:w-0 hover:before:w-full before:transition-all before:ease-in-out before:bg-hoverElment before:bottom-0 ${activeSection ==="skills"? "before:w-full text-blue-300 " : ""}`} href="#skills">Skills</Link>
+                    <Link className={`text-white hover:text-blue-300 relative before:absolute before:h-0.5 before:w-0 hover:before:w-full before:transition-all before:ease-in-out before:bg-hoverElment before:bottom-0 ${activeSection === "skills" ? "before:w-full text-blue-300 " : ""}`} href="#skills">Skills</Link>
                 </NavbarMenuItem>
                 <NavbarMenuItem className="mt-3">
-                    <Link className={`text-white hover:text-blue-300 relative before:absolute before:h-0.5 before:w-0 hover:before:w-full before:transition-all before:ease-in-out before:bg-hoverElment before:bottom-0 ${activeSection ==="contact"? "before:w-full text-blue-300 " : ""}`} href="#contact">Contact</Link>
+                    <Link className={`text-white hover:text-blue-300 relative before:absolute before:h-0.5 before:w-0 hover:before:w-full before:transition-all before:ease-in-out before:bg-hoverElment before:bottom-0 ${activeSection === "contact" ? "before:w-full text-blue-300 " : ""}`} href="#contact">Contact</Link>
                 </NavbarMenuItem>
             </NavbarMenu>
         </Navbar>
