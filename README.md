@@ -7,4 +7,7 @@
 
 ## ✨ Features
 - Responsive design 📱  
-- Smooth animations 🎥  
+- Smooth animations 🎥
+
+## 👤 Author
+- **Your Name** – [LinkedIn](https://www.linkedin.com/in/mahmoud-mohamed-a15559353) | [GitHub](https://github.com/its-mahm0ud)
